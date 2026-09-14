@@ -1,0 +1,47 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bad Guess Club — Gizlilik Politikası</title><link rel="stylesheet" href="style.css"></head><body><main>
+<nav><a href="/">Destek</a><a href="/privacy.html">Gizlilik Politikası</a><a href="#en">Privacy (EN)</a></nav>
+<h1>Gizlilik Politikası</h1>
+<p class="muted">Bad Guess Club (iOS) · Yürürlük: 15 Eylül 2026 · Sorumlu: Yağız Efe Şabanoğlu (Aldune Tech), <a href="mailto:E_POSTA_GELECEK">E_POSTA_GELECEK</a></p>
+<p>Bu belge uygulamanın hangi verileri topladığını, neden topladığını ve nasıl sildirebileceğini anlatır. Kısa tutuldu; her satır uygulamada gerçekten olan bir şeye karşılık gelir.</p>
+
+<h2>Hesap yok, anonim kimlik var</h2>
+<p>Uygulama e-posta, telefon veya şifre istemez. İlk açılışta cihazına bağlı <strong>anonim bir oyuncu kimliği</strong> (rastgele bir numara) oluşturulur. Bu kimlik kim olduğunu bilmez; yalnız aynı telefonun aynı oyuncu olduğunu bilir. Uygulamayı silersen kimlik de gider.</p>
+
+<h2>Topladığımız veriler</h2>
+<table>
+<tr><th>Veri</th><th>Ne için</th><th>Kim görür</th></tr>
+<tr><td>Anonim oyuncu kimliği</td><td>Odaya katılmak, skorun sana yazılması, aynı soruyu tekrar sormamak</td><td>Sunucumuz (Supabase)</td></tr>
+<tr><td>Yazdığın oyuncu adı</td><td>Odadaki diğer oyuncuların seni görmesi</td><td>Aynı odadaki oyuncular</td></tr>
+<tr><td>Oyun içi tahminlerin</td><td>Oyunun kendisi; ayrıca yanlış sayılan tahminler soru havuzunu düzeltmek için kaydedilir</td><td>Aynı odadaki oyuncular, biz</td></tr>
+<tr><td>Gördüğün sorular, oyun sonuçların</td><td>Soru tekrarını önlemek, <em>Hesabım</em> ekranındaki istatistikler</td><td>Yalnız sen ve biz</td></tr>
+<tr><td>Kullanım olayları (hangi mod seçildi, oyun bitti mi, reklam gösterildi mi)</td><td>Neyin oynandığını anlamak</td><td>Biz</td></tr>
+<tr><td>Çökme raporları (cihaz modeli, iOS sürümü, hata kaydı)</td><td>Hataları bulmak (Sentry)</td><td>Biz, Sentry</td></tr>
+<tr><td>Reklam kimliği (IDFA — yalnız izin verirsen), yaklaşık konum (IP'den), reklam etkileşimleri</td><td>Reklam göstermek (Google AdMob)</td><td>Google</td></tr>
+</table>
+<p>Kişisel iletişim bilgisi, rehber, fotoğraf, kesin konum toplamayız. Uygulamada satın alma yoktur.</p>
+
+<h2>Reklamlar ve takip izni</h2>
+<p>Reklamlar <strong>Google AdMob</strong> ile gösterilir. iOS ilk açılışta <em>Uygulama Takibi Şeffaflığı</em> (ATT) izni sorar. <strong>İzin vermezsen</strong> uygulama aynı şekilde çalışır ve reklamlar yine gösterilir, yalnız sana göre kişiselleştirilmez. Google'ın reklam verilerini nasıl işlediği: <a href="https://policies.google.com/technologies/ads" rel="noopener">policies.google.com/technologies/ads</a>. Avrupa Ekonomik Alanı'nda ayrıca GDPR onay formu gösterilir.</p>
+
+<h2>Verilerin nerede tutulur, ne kadar kalır</h2>
+<p>Sunucu altyapısı <a href="https://supabase.com" rel="noopener">Supabase</a> üzerindedir. Oyun odaları ve içindeki oyun kayıtları süresi dolduktan bir gün sonra otomatik silinir. Gördüğün sorular, oyun sonuçların ve kullanım olayları sen silmedikçe tutulur.</p>
+
+<h2>Silme hakkın</h2>
+<p>Ana ekranda <em>Hesabım</em> → <em>Verilerimi sil</em>. Anonim kimliğine bağlı her şey — gördüğün sorular, sonuçların, adın, kullanım olayların, tahminlerin — sunucudan kalıcı olarak silinir ve kimliğin kapatılır. Bir sonraki açılış yeni bir oyuncudur. Kurduğun odalar içindeki diğer oyunculara devredilir; onların oyunları etkilenmez. Ayrıca istersen yukarıdaki adrese yazabilirsin.</p>
+
+<h2>Çocuklar</h2>
+<p>Uygulama 13 yaş ve üzeri için derecelendirilmiştir. 13 yaş altından bilerek veri toplamıyoruz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika değişirse bu sayfa güncellenir ve yürürlük tarihi değişir.</p>
+
+<hr style="border:0;border-top:1px solid #2A2A2E;margin:3rem 0">
+<h1 id="en">Privacy Policy (English)</h1>
+<p class="muted">Bad Guess Club for iOS · Effective 15 September 2026 · Controller: Yağız Efe Şabanoğlu (Aldune Tech), <a href="mailto:E_POSTA_GELECEK">E_POSTA_GELECEK</a></p>
+<p><strong>No accounts.</strong> The app creates an anonymous player ID tied to your device; no email, phone or password is collected.</p>
+<p><strong>What we collect:</strong> the anonymous ID; the display name you type and the guesses you make (visible to players in the same private room; rejected guesses are kept to improve the question pool); which questions you have seen and your game results (for the <em>Hesabım</em> stats and to avoid repeats); usage events (mode chosen, game finished, ad shown); crash reports via Sentry (device model, OS version, error trace); and, through Google AdMob, the advertising identifier (only with your ATT permission), coarse IP-based location and ad interaction data.</p>
+<p><strong>Ads.</strong> Served by Google AdMob. iOS asks for App Tracking Transparency permission on first launch; if you decline, the app works identically and ads are simply not personalised. See <a href="https://policies.google.com/technologies/ads" rel="noopener">Google's advertising policies</a>. In the EEA a GDPR consent form is shown.</p>
+<p><strong>Storage and retention.</strong> Backend on Supabase. Rooms and their game records are deleted a day after they expire; questions seen, results and usage events are kept until you delete them.</p>
+<p><strong>Deletion.</strong> Home screen → <em>Hesabım</em> → <em>Verilerimi sil</em> permanently deletes everything tied to your ID and closes it. You may also email the address above.</p>
+<p><strong>Children.</strong> Rated 13+; we do not knowingly collect data from children under 13.</p>
+<footer>© 2026 Yağız Efe Şabanoğlu · Aldune Tech</footer></main></body></html>
